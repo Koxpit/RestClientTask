@@ -26,9 +26,6 @@ public class DemotestApplication {
         user.setId(3);
         communication.saveUser(user);
 
-        List<User> users2 = communication.getAllUsers();
-        System.out.println(users2);
-
         user.setId(3);
         user.setAge((byte) 40);
         communication.updateUser(user);
